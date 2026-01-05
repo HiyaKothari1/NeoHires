@@ -1,0 +1,158 @@
+/* ========== GLOBAL ========== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #f5f7fb;
+  margin: 0;
+  padding: 0;
+}
+
+/* ========== HEADER ========== */
+header {
+  background-color: #122560;
+  color: white;
+  padding: 22px;
+  text-align: center;
+}
+
+/* ========== MONTH BUTTONS ========== */
+#months {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px;
+}
+
+.month-btn {
+  padding: 10px 18px;
+  border: none;
+  background: #e5e7eb;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.month-btn.active {
+  background-color: #122560;
+  color: white;
+}
+
+/* ========== CARDS CONTAINER ========== */
+#cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* ========== CARD ========== */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* ========== CARD HEADER ========== */
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #f3f4f6;
+}
+
+.company-name {
+  font-size: 18px;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+/* ========== CARD CONTENT ========== */
+.card p {
+  font-size: 14px;
+  color: #374151;
+  margin: 8px 0;
+}
+
+.card i {
+  color: #6b7280;
+  margin-right: 6px;
+}
+
+/* Divider */
+hr {
+  opacity: 0.25;
+  margin: 10px 0;
+}
+
+/* ========== STATUS ========== */
+.status-open {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.status-upcoming {
+  color: #ca8a04;
+  font-weight: 600;
+}
+
+.status-closed {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* ========== APPLY BUTTON ========== */
+.apply-btn {
+  margin-top: 14px;
+  width: 100%;
+  padding: 10px;
+  background: #122560;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.apply-btn:hover {
+  background: #0f1f4a;
+  transform: scale(1.02);
+}
+
+/* Remove underline from links */
+.card a {
+  text-decoration: none;
+}
+.app-header {
+  background-color: #122560;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
