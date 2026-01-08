@@ -7,7 +7,7 @@ const data = [
     name:"HackTag",
     type: "Hackathon",
     eligibility:"3rd year",
-    status: "Open",
+    status: "closing-soon",
     logo: "assets/logos/uber.png",
     applyLink: "https://www.uber.com/careers/"
   },
@@ -64,7 +64,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Hackathon",
     eligibility:"2nd-3rd year",
-    status: "Open",
+    status: "Upcoming",
     logo: "assets/logos/JPmorgan.png",
     applyLink: "https://www.flipkartcareers.com/"
   },
@@ -75,7 +75,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Hackathon",
     eligibility:"female",
-    status: "Open",
+    status: "Upcoming",
     logo: "assets/logos/walmart.png",
     applyLink: "https://careers.walmart.com/students"
   },
@@ -110,7 +110,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Internship",
     eligibility:"3rd year",
-    status: "upcoming",
+    status: "Upcoming",
     logo: "assets/logos/github.png",
     applyLink: "https://github.com/GitHub-Externships"
   },
@@ -121,7 +121,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Internship",
     eligibility:"2nd-3rd year",
-    status: "upcoming",
+    status: "Upcoming",
     logo: "assets/logos/flipkart.png",
     applyLink: "https://www.flipkartcareers.com/flipkart/runway"
   },
@@ -145,7 +145,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Internship",
     eligibility:"2nd-3rd year",
-    status: "upcoming",
+    status: "Upcoming",
     logo: "assets/logos/myntra.png",
     applyLink: "https://careers.myntra.com/"
   },
@@ -156,7 +156,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Internship",
     eligibility:"2nd/3rd/4th year",
-    status: "upcoming",
+    status: "Upcoming",
     logo: "assets/logos/linked-in.png",
     applyLink: "https://welcomein.my.canva.site/coachin-2026"
   },
@@ -193,7 +193,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Internship",
     eligibility:"2nd year",
-    status: "upcoming",
+    status: "Upcoming",
     logo: "assets/logos/microsoft.png",
     applyLink: "https://careers.microsoft.com/v2/global/en/students"
   }, 
@@ -204,7 +204,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Hackathon",
     eligibility:"2nd /3rd year",
-    status: "upcoming",
+    status: "Upcoming",
     logo: "assets/logos/cisco.png",
     applyLink: "https://www.cisco.com/c/m/en_in/customer-experience-academy.html"
   },
@@ -239,7 +239,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Internship",
     eligibility:"3rd year",
-    status: "upcoming",
+    status: "Upcoming",
     logo: "assets/logos/goldman.png",
     applyLink: "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2026-summer-analyst-program"
   },
@@ -250,7 +250,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Internship",
     eligibility:"3rd year",
-    status: "upcoming",
+    status: "Upcoming",
     logo: "assets/logos/swiggy.png",
     applyLink: "https://careers.swiggy.com/#/"
   },
@@ -261,7 +261,7 @@ const data = [
     role: "System Engineer",
     type: "Placement",
     eligibility:"2nd/3rd year",
-    status: "Open",
+    status: "Upcoming",
     logo: "assets/logos/infosys.png",
     applyLink: "https://www.infosys.com/careers/"
   },
@@ -286,7 +286,7 @@ const data = [
     role: "Software Engineer Intern",
     type: "Internship",
     eligibility:"2nd/3rd year",
-    status: "upcoming",
+    status: "Upcoming",
     logo: "assets/logos/flipkart.png",
     applyLink: "https://www.flipkartcareers.com/flipkart/grid"
   },
@@ -308,7 +308,7 @@ const data = [
     name:"SDE Intern Program",
     type: "Placement",
     eligibility:"2nd/3rd year",
-    status: "Open",
+    status: "Upcoming",
     logo: "assets/logos/wipro.png",
     applyLink: "https://careers.wipro.com/"
   },
@@ -354,7 +354,7 @@ const data = [
     role: "Technology Analyst",
     type: "Placement",
     eligibility:"2nd/3rd year",
-    status: "Open",
+    status: "Upcoming",
     logo: "assets/logos/jpmorgan.png",
     applyLink: "https://careers.jpmorgan.com/"
   },
@@ -400,7 +400,7 @@ const data = [
     role: "Hardware Engineer Intern",
     type: "Internship",
     eligibility:"2nd/3rd year",
-    status: "Open",
+    status: "Upcoming",
     logo: "assets/logos/intel.png",
     applyLink: "https://jobs.intel.com/"
   },
@@ -446,7 +446,7 @@ const data = [
     role: "Frontend Engineer Intern",
     type: "Internship",
     eligibility:"2nd/3rd year",
-    status: "Open",
+    status: "Upcoming",
     logo: "assets/logos/meta.png",
     applyLink: "https://www.metacareers.com/"
   },
@@ -492,7 +492,7 @@ const data = [
     role: "iOS Developer Intern",
     type: "Internship",
     eligibility:"2nd/3rd year",
-    status: "Open",
+    status: "Upcoming",
     logo: "assets/logos/apple.png",
     applyLink: "https://www.apple.com/careers/"
   },
@@ -516,7 +516,7 @@ const data = [
     role: "Cloud Engineer Intern",
     type: "Internship",
     eligibility:"2nd/3rd year",
-    status: "Open",
+    status: "Upcoming",
     logo: "assets/logos/oracle.png",
     applyLink: "https://www.oracle.com/careers/"
   },
@@ -554,6 +554,132 @@ const data = [
     applyLink: "https://www2.deloitte.com/careers"
   },
 ];
+// ================= HACKATHON DATA =================
+
+const hackathonData = [
+  {
+    company: "Uber",
+    name: "HackTag",
+    theme: "Software Engineering",
+    techStack: [
+    "C++ / Java / Python",
+    "Graphs, DP, Advanced Algorithms",
+  ],
+    status: "Open",
+    logo: "assets/logos/uber.png",
+    applyLink: "https://www.uber.com/"
+  },
+  {
+    company: "Meta",
+    name: "Meta Hacker Cup",
+    theme: "Competitive Programming",
+    techStack: [
+    "C++ / Java / Python",
+    "Graphs, DP, Advanced Algorithms"
+    
+  ],
+    status: "Open",
+    logo: "assets/logos/meta.png",
+    applyLink: "https://www.facebook.com/codingcompetitions"
+  },
+  {
+    company: "Amazon",
+    name: "Amazon ML Challenge",
+    theme: "Machine Learning",
+    techStack: [
+    "Python, Pandas, Scikit-learn",
+    "XGBoost, TensorFlow"
+  ],
+    status: "Upcoming",
+    logo: "assets/logos/amazon.png",
+    applyLink: "https://www.hackerearth.com"
+  },
+  {
+    company: "Nvidia",
+    name: "NVIDIA AI Hackathon",
+    theme: "Deep Learning",
+    techStack: [
+    "PyTorch, CUDA",
+    "GPUs, RAPIDS"
+  ],
+    status: "Upcoming",
+    logo: "assets/logos/nvidia.png",
+    applyLink: "https://www.nvidia.com"
+  },
+  {
+    company: "Apple",
+    name: "Apple Swift Student Challenge",
+    theme: "App Development",
+    techStack: [
+    "Swift, SwiftUI",
+    "iOS frameworks"
+  ],
+    status: "Upcoming",
+    logo: "assets/logos/apple.png",
+    applyLink: "https://developer.apple.com/swift-student-challenge"
+  },
+  {
+    company: "OpenAI",
+    name: "OpenAI Hackathon",
+    theme: "Generative AI",
+    techStack: [
+    "OpenAI API",
+    "Python / Node.js"
+  ],
+    status: "Upcoming",
+    logo: "assets/logos/OpenAI.png",
+    applyLink: "https://openai.com"
+  },
+  {
+    company: "IBM",
+    name: "IBM Call for Code",
+    theme: "Climate & Social Good",
+    techStack: [
+    "IBM Cloud",
+    "AI, IoT, Blockchain"
+  ],
+    status: "Upcoming",
+    logo: "assets/logos/ibm.png",
+    applyLink: "https://www.ibm.com/call-for-code"
+  },
+  {
+    company: "ETH Global",
+    name: "ETHGlobal Hackathons",
+    theme: "Climate & Social Good",
+    techStack: [
+    "Solidity",
+    "React + Ethers.js"
+   ],
+    status: "Upcoming",
+    logo: "assets/logos/ETHglobal.jpg",
+    applyLink: "https://ethglobal.com"
+  },
+  {
+    company: "Solana",
+    name: "Solana Global Hackathon",
+    theme: "Blockchain",
+    techStack: [
+    "Rust",
+    "Solana SDK"
+   ],
+    status: "Upcoming",
+    logo: "assets/logos/solana.png",
+    applyLink: "https://solana.com/hackathons"
+  },
+  {
+    company: "Polkadot",
+    name: "Polkadot Decode Hackathon",
+    theme: "Web3 Infra",
+    techStack: [
+    "Rust",
+    "Substrate"
+   ],
+    status: "Upcoming",
+    logo: "assets/logos/polkadot.png",
+    applyLink: "https://polkadot.network"
+  }
+];
+
 
 function filterMonth(selectedMonth) {
   const container = document.getElementById("cards-container");
@@ -569,12 +695,19 @@ function filterMonth(selectedMonth) {
 
     const normalizedStatus = item.status.toLowerCase();
 
-    const statusClass =
-      normalizedStatus === "open"
-        ? "status-open"
-        : normalizedStatus === "closed"
-        ? "status-closed"
-        : "status-upcoming";
+    let statusClass = "status-upcoming";
+
+if (normalizedStatus === "open") {
+  statusClass = "status-open";
+} else if (normalizedStatus === "closed") {
+  statusClass = "status-closed";
+} else if (normalizedStatus === "closing-soon") {
+  statusClass = "status-closing-soon";
+}
+
+
+    // ✅ MOVE JS LOGIC OUTSIDE TEMPLATE
+    const isClosed = normalizedStatus === "closed";
 
     card.innerHTML = `
       <div class="card-header">
@@ -598,14 +731,17 @@ function filterMonth(selectedMonth) {
 
       <p class="${statusClass}">● ${item.status}</p>
 
-      <a href="${item.applyLink || '#'}" target="_blank">
-        <button class="apply-btn">Apply Now</button>
+      <a href="${isClosed ? '#' : item.applyLink}" target="_blank">
+        <button class="apply-btn ${isClosed ? "disabled" : ""}" ${isClosed ? "disabled" : ""}>
+          Apply Now
+        </button>
       </a>
     `;
 
     container.appendChild(card);
   });
 }
+
 function selectMonth(button, month) {
   // Remove active from all month buttons
   document.querySelectorAll(".month-btn").forEach(btn =>
@@ -626,3 +762,164 @@ window.onload = function () {
   januaryBtn.classList.add("active");
   filterMonth("January");
 };
+// ================= HACKATHON ADD START =================
+
+// Track current mode
+let currentMode = "internship"; // internship | hackathon
+
+function showInternships() {
+  currentMode = "internship";
+
+  document.getElementById("cards-container").style.display = "flex";
+  document.getElementById("hackathon-container").style.display = "none";
+
+  // 🟢 SHOW MONTH BUTTONS AGAIN
+  document.getElementById("months").style.display = "flex";
+
+  toggleActiveButton(0);
+
+  const activeMonthBtn = document.querySelector(".month-btn.active");
+  if (activeMonthBtn) {
+    filterMonth(activeMonthBtn.innerText);
+  }
+}
+
+
+function showHackathons() {
+  currentMode = "hackathon";
+
+  document.getElementById("cards-container").style.display = "none";
+  document.getElementById("hackathon-container").style.display = "flex";
+
+  // 🔴 HIDE MONTH BUTTONS
+  document.getElementById("months").style.display = "none";
+
+  toggleActiveButton(1);
+
+  // Show ALL hackathons (no month filter)
+  showAllHackathons();
+}
+
+
+// Toggle active state
+function toggleActiveButton(index) {
+  const buttons = document.querySelectorAll(".toggle-btn");
+  buttons.forEach(btn => btn.classList.remove("active"));
+  buttons[index].classList.add("active");
+}
+
+// Filter hackathons month-wise
+function filterHackathons(selectedMonth) {
+  const container = document.getElementById("hackathon-container");
+  container.innerHTML = "";
+
+  const filtered = data.filter(
+    item =>
+      item.month.toLowerCase() === selectedMonth.toLowerCase() &&
+      item.type.toLowerCase() === "hackathon"
+  );
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<p style="text-align:center;color:#6b7280;">
+      No hackathons this month
+    </p>`;
+    return;
+  }
+
+  filtered.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const normalizedStatus = item.status.toLowerCase();
+    let statusClass = "status-upcoming";
+
+if (normalizedStatus === "open") {
+  statusClass = "status-open";
+} else if (normalizedStatus === "closed") {
+  statusClass = "status-closed";
+} else if (normalizedStatus === "closing-soon") {
+  statusClass = "status-closing-soon";
+}
+
+
+    card.innerHTML = `
+      <div class="card-header">
+        <img src="${item.logo}" class="company-logo" />
+        <h3 class="company-name">${item.name}</h3>
+      </div>
+      <p><i class="fa-solid fa-code"></i> <strong>Name:</strong> ${item.name}</p>
+      <p class="hackathon-tag">${item.company}</p>
+      <hr>
+      <p><i class="fa-solid fa-code"></i> <strong>Theme:</strong> ${item.role}</p>
+      <hr>
+      <p><i class="fa-solid fa-users"></i> <strong>Eligibility:</strong> ${item.eligibility}</p>
+      <hr>
+
+      <p class="${statusClass}">● ${item.status}</p>
+
+      <a href="${item.applyLink}" target="_blank">
+        <button class="apply-btn">Apply Now</button>
+      </a>
+    `;
+
+    container.appendChild(card);
+  });
+}
+
+// Override month click behavior WITHOUT changing existing logic
+document.querySelectorAll(".month-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const month = btn.innerText;
+    if (currentMode === "hackathon") {
+      filterHackathons(month);
+    }
+  });
+});
+function showAllHackathons() {
+  const container = document.getElementById("hackathon-container");
+  container.innerHTML = "";
+
+  hackathonData.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const statusClass =
+      item.status.toLowerCase() === "open"
+        ? "status-open"
+        : item.status.toLowerCase() === "closed"
+        ? "status-closed"
+        : "status-upcoming";
+
+    card.innerHTML = `
+  <div class="card-header">
+    <img src="${item.logo}" class="company-logo" />
+    <h3 class="company-name">${item.company}</h3>
+  </div>
+
+  <p class="hackathon-tag">${item.name}</p>
+  <hr>
+
+  <p><strong>Theme:</strong> ${item.theme}</p>
+  <hr>
+
+  <p><strong>Tech Stack:</strong></p>
+  <ul class="tech-stack">
+    ${item.techStack.map(skill => `<li>${skill}</li>`).join("")}
+  </ul>
+  <hr>
+
+  <p class="${statusClass}">● ${item.status}</p>
+
+  <a href="${item.applyLink}" target="_blank">
+    <button class="apply-btn">Apply Now</button>
+  </a>
+`;
+
+
+
+    container.appendChild(card);
+  });
+}
+
+
+// ================= HACKATHON ADD END =================
