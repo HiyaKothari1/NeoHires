@@ -5,39 +5,53 @@
   <title>NeoHire</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<link rel="icon" type="image/png" href="assets/logos/favicon.png">
-
+  <link rel="icon" type="image/png" href="assets/logos/favicon.png">
 </head>
 <body>
 
   <!-- Header -->
   <header class="app-header">
-     
-     <div> <h1>NeoHire</h1>
-    <p>Intelligent Internship & Placement Tracker</p></div>
-   
+    <div>
+      <h1>NeoHire</h1>
+      <p>Intelligent Internship & Placement Tracker</p>
+    </div>
   </header>
 
-  <!-- Month Selector -->
-  <section id="months">
-    <button onclick="selectMonth(this, 'January')"onclick="filterMonth('January')" class="month-btn" >January</button>
-    <button onclick="selectMonth(this, 'February')" onclick="filterMonth('February')"class="month-btn" >February</button>
-    <button onclick="selectMonth(this, 'March')"onclick="filterMonth('March')"class="month-btn" >March</button>
-    <button onclick="selectMonth(this, 'April')"onclick="filterMonth('April')"class="month-btn" >April</button>
-    <button onclick="selectMonth(this, 'May')"onclick="filterMonth('May')"class="month-btn" >May</button>
-    <button onclick="selectMonth(this, 'June')" onclick="filterMonth('June')"class="month-btn" >June</button>
-    <button onclick="selectMonth(this, 'July')"onclick="filterMonth('July')"class="month-btn" >July</button>
-    <button onclick="selectMonth(this, 'August')"onclick="filterMonth('August')"class="month-btn" >August</button>
-    <button onclick="selectMonth(this, 'September')"onclick="filterMonth('September')"class="month-btn" >September</button>
-    <button onclick="selectMonth(this, 'October')"onclick="filterMonth('October')"class="month-btn" >October</button>
-    <button onclick="selectMonth(this, 'November')"onclick="filterMonth('November')"class="month-btn" >November</button>
-    <button onclick="selectMonth(this, 'December')"onclick="filterMonth('December')"class="month-btn" >December</button>
-      </section>
-
-  <!-- Company Cards -->
-  <section id="cards-container">
-    <!-- Cards will appear here -->
+  <!-- 🔹 NEW: Internship / Hackathon Toggle -->
+  <!-- ================= HACKATHON ADD START ================= -->
+  <section id="mode-toggle">
+    <button class="toggle-btn active" onclick="showInternships()">Internships</button>
+    <button class="toggle-btn" onclick="showHackathons()">Hackathons</button>
   </section>
+  <!-- ================= HACKATHON ADD END ================= -->
+
+  <!-- Month Selector (UNCHANGED) -->
+  <section id="months">
+    <button onclick="selectMonth(this, 'January')" class="month-btn">January</button>
+    <button onclick="selectMonth(this, 'February')" class="month-btn">February</button>
+    <button onclick="selectMonth(this, 'March')" class="month-btn">March</button>
+    <button onclick="selectMonth(this, 'April')" class="month-btn">April</button>
+    <button onclick="selectMonth(this, 'May')" class="month-btn">May</button>
+    <button onclick="selectMonth(this, 'June')" class="month-btn">June</button>
+    <button onclick="selectMonth(this, 'July')" class="month-btn">July</button>
+    <button onclick="selectMonth(this, 'August')" class="month-btn">August</button>
+    <button onclick="selectMonth(this, 'September')" class="month-btn">September</button>
+    <button onclick="selectMonth(this, 'October')" class="month-btn">October</button>
+    <button onclick="selectMonth(this, 'November')" class="month-btn">November</button>
+    <button onclick="selectMonth(this, 'December')" class="month-btn">December</button>
+  </section>
+
+  <!-- Internship Cards (EXISTING – UNTOUCHED) -->
+  <section id="cards-container">
+    <!-- Internship cards here -->
+  </section>
+
+  <!-- 🔹 NEW: Hackathon Cards Container -->
+  <!-- ================= HACKATHON ADD START ================= -->
+  <section id="hackathon-container" style="display:none;">
+    <!-- Hackathon cards will appear here -->
+  </section>
+  <!-- ================= HACKATHON ADD END ================= -->
 
   <script src="script.js"></script>
 </body>
